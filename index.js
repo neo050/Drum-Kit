@@ -12,9 +12,9 @@ document.addEventListener("keypress",function(event){
      makesound(event.key);
 });
 
-function makesound(keypress_event_key)
+function makesound(key)
 {
-    switch(keypress_event_key){
+    switch(key){
         case"w":
             var crash= new Audio("sounds/crash.mp3");
             crash.play();
