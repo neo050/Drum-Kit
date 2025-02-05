@@ -56,5 +56,5 @@ function buttonAnimation(key)
     actuveButton.classList.add("pressed");
 
     setTimeout(function(){actuveButton.classList.remove("pressed");
-    } ,100)
+    } ,100) 
 }
